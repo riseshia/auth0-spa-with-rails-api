@@ -1,0 +1,15 @@
+version: '3'
+services:
+  db:
+    image: postgres:13.5
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres:/var/lib/postgres
+    environment:
+      POSTGRES_PASSWORD: ""
+      POSTGRES_HOST_AUTH_METHOD: trust
+
+volumes:
+  postgres:
+    driver: local
