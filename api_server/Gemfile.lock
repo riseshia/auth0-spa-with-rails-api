@@ -75,6 +75,7 @@ GEM
     debug (1.4.0)
       irb (>= 1.3.6)
       reline (>= 0.2.7)
+    denv (0.2.6)
     devise (4.8.1)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -178,15 +179,13 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   debug
+  denv
   devise
   jwt
   pg (~> 1.1)
   puma (~> 5.0)
   rails (~> 7.0.1)
   tzinfo-data
-
-RUBY VERSION
-   ruby 3.0.2p107
 
 BUNDLED WITH
    2.2.22
