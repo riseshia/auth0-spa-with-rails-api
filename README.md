@@ -1,4 +1,4 @@
-# auth0-next-js-rails-api
+# auth0-spa-with-rails-api
 
 Sample application for testing auth0.
 
