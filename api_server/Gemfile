@@ -13,6 +13,7 @@ gem "pg", "~> 1.1"
 gem "puma", "~> 5.0"
 
 gem "omniauth-auth0"
+gem "auth0"
 
 gem "devise"
 
